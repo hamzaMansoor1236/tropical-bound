@@ -1,5 +1,5 @@
 import './ThirdSection.css'
-import beachImage from '../../assets/imageBeach.png'
+import beachImage from '../../assets/Beach.png'
 import leafImage from '../../assets/leaf.png'
 import background from '../../assets/rectangle.png'
 
