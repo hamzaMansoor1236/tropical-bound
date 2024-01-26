@@ -24,8 +24,8 @@
 
 .blog .carousel-indicators {
   left: 0;
-  top: auto;
-  bottom: -40px;
+  
+  
 }
 
 /* The colour of the indicators */
@@ -59,6 +59,7 @@
 }
 .react-multiple-carousel__arrow {
   background: #ff385c !important;
+  bottom: 50%;
 }
 .cursor-pointer{
   cursor: pointer;
@@ -83,7 +84,7 @@
     left: 0px !important;
   }
   .react-multiple-carousel__arrow {
-    top: 70px;
+    
     min-width: 25px !important;
     min-height: 25px !important;
   }
@@ -97,7 +98,7 @@
     right: 0px !important;
   }
   .img-height-fourth-section {
-    height: 14.375rem;
+    height: 13rem;
   }
   .text-below-image {
     font-size: 16px;
@@ -107,7 +108,7 @@
     left: 0px !important;
   }
   .react-multiple-carousel__arrow {
-    top: 100px;
+    
     min-width: 30px !important;
     min-height: 30px !important;
   }
@@ -135,7 +136,7 @@
    
   }
   .react-multiple-carousel__arrow {
-    top: 95px;
+    
     min-width: 30px !important;
     min-height: 30px !important;
   }
@@ -156,7 +157,7 @@
     left: 0px !important;
   }
   .react-multiple-carousel__arrow {
-    top: 90px;
+    
     min-width: 35px !important;
     min-height: 35px !important;
   }
@@ -181,17 +182,17 @@
 
 @media screen and (min-width: 1440px) and (max-width: 2559px) {
   .react-multiple-carousel__arrow--right {
-    right: 20px !important ;
+    right: 0px !important ;
   }
   .img-height-fourth-section {
-    height: 250px;
+    height: 300px;
   }
   .text-below-image {
     font-size: 23px;
     line-height: 25px; /* 119.048% */
   }
   .react-multiple-carousel__arrow--left {
-    left: 20px !important;
+    left: 0px !important;
   }
 }
 

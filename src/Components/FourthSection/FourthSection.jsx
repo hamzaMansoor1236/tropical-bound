@@ -41,7 +41,7 @@ function FourthSection() {
     return (
         <div className='container fourth-section mt-3 ' >
             <div className='col-12  d-flex justify-content-start justify-content-sm-center pt-4 pt-sm-5' >
-                <h1 className='heading-third-section m-0'>Trending Destinations</h1>
+                <h1 className={'heading-third-section m-0'}>Trending Destinations</h1>
             </div>
             <div className="mt-4 mt-md-5" >
                 <Carousel responsive={responsive}>

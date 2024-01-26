@@ -1,0 +1,21 @@
+.rounded-custom{
+     border-radius: 27px;
+}
+
+.text{
+    color: #000;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: 42.5px; /* 106.25% */
+}
+.small-text-stats-fifth-section{
+
+    color: #000;
+font-family: Poppins;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 176.471% */
+}
