@@ -17,16 +17,16 @@ const responsive = {
     highDefinition: {
         // the naming can be any, depends on you.
         breakpoint: { max: 4000, min: 1441 },
-        items: 6
+        items: 8
     },
     superLargeDesktop: {
         // the naming can be any, depends on you.
         breakpoint: { max: 1440, min: 1025 },
-        items: 5
+        items: 7
     },
     desktop: {
         breakpoint: { max: 1024, min: 769 },
-        items: 4
+        items: 5
     },
     tablet: {
         breakpoint: { max: 768, min: 426 },
