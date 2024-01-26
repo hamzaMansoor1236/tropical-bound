@@ -1,7 +1,7 @@
 import './ThirdSection.css'
-import beachImage from '../../assets/imageBeach.svg'
-import leafImage from '../../assets/leaf.svg'
-import background from '../../assets/rectangle.png'
+//import beachImage from '../../assets/imageBeach.svg'
+//import leafImage from '../../assets/leaf.svg'
+//import background from '../../assets/rectangle.png'
 
 import React from 'react'
 
