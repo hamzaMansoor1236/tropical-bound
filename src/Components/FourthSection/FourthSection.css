@@ -1,0 +1,206 @@
+.heading-section-fourth {
+  display: flex;
+  color: #000;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42.5px;
+  text-transform: capitalize;
+  justify-content: center;
+}
+
+.styling-destination {
+  color: #000;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42.5px;
+  margin-left: 10px;
+  text-transform: capitalize;
+  align-items: center;
+}
+
+.blog .carousel-indicators {
+  left: 0;
+  top: auto;
+  bottom: -40px;
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+  background: #a3a3a3;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}
+
+.blog .carousel-indicators .active {
+  background: #707070;
+}
+
+.react-multiple-carousel__arrow--right {
+  right: 10px !important;
+}
+
+.text-below-image {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 25px; /* 119.048% */
+  text-transform: capitalize;
+}
+
+.react-multiple-carousel__arrow:hover {
+  background: #ff385c !important;
+}
+.react-multiple-carousel__arrow {
+  background: #ff385c !important;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .react-multiple-carousel__arrow--right {
+    right: 0px !important;
+  }
+  .img-height-fourth-section {
+    height: 170px;
+  }
+  .text-below-image {
+    font-size: 14px;
+    line-height: 25px; /* 119.048% */
+  }
+  .react-multiple-carousel__arrow--left {
+    left: 0px !important;
+  }
+  .react-multiple-carousel__arrow {
+    top: 70px;
+    min-width: 25px !important;
+    min-height: 25px !important;
+  }
+  .react-multiple-carousel__arrow::before {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .react-multiple-carousel__arrow--right {
+    right: 0px !important;
+  }
+  .img-height-fourth-section {
+    height: 14.375rem;
+  }
+  .text-below-image {
+    font-size: 16px;
+    line-height: 25px; /* 119.048% */
+  }
+  .react-multiple-carousel__arrow--left {
+    left: 0px !important;
+  }
+  .react-multiple-carousel__arrow {
+    top: 100px;
+    min-width: 30px !important;
+    min-height: 30px !important;
+  }
+  .react-multiple-carousel__arrow::before {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767px) {
+  .react-multiple-carousel__arrow--right {
+    right: 0px !important ;
+  }
+  .img-height-fourth-section {
+    height: 240px;
+  }
+  .text-below-image {
+    font-size: 20px;
+    line-height: 25px; /* 119.048% */
+  }
+  .react-multiple-carousel__arrow--left {
+    left: 0px !important;
+  }
+  .react-multiple-carousel__arrow::before {
+    font-size: 12px !important;
+   
+  }
+  .react-multiple-carousel__arrow {
+    top: 95px;
+    min-width: 30px !important;
+    min-height: 30px !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .react-multiple-carousel__arrow--right {
+    right: 0px !important ;
+  }
+  .img-height-fourth-section {
+    height: 200px;
+  }
+  .text-below-image {
+    font-size: 20px;
+    line-height: 25px; /* 119.048% */
+  }
+  .react-multiple-carousel__arrow--left {
+    left: 0px !important;
+  }
+  .react-multiple-carousel__arrow {
+    top: 90px;
+    min-width: 35px !important;
+    min-height: 35px !important;
+  }
+  
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+  .react-multiple-carousel__arrow--right {
+    right: 0px !important ;
+  }
+  .img-height-fourth-section {
+    height: 270px;
+  }
+  .text-below-image {
+    font-size: 22px;
+    line-height: 25px; /* 119.048% */
+  }
+  .react-multiple-carousel__arrow--left {
+    left: 0px !important;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
+  .react-multiple-carousel__arrow--right {
+    right: 20px !important ;
+  }
+  .img-height-fourth-section {
+    height: 250px;
+  }
+  .text-below-image {
+    font-size: 23px;
+    line-height: 25px; /* 119.048% */
+  }
+  .react-multiple-carousel__arrow--left {
+    left: 20px !important;
+  }
+}
+
+@media screen and (min-width: 2560px) and (max-width: 2560px) {
+    .react-multiple-carousel__arrow--right {
+      right: 0px !important ;
+    }
+    .img-height-fourth-section {
+      height: 240px;
+    }
+    .text-below-image {
+      font-size: 23px;
+      line-height: 25px; /* 119.048% */
+    }
+    .react-multiple-carousel__arrow--left {
+      left: 0px !important;
+    }
+  }
+  
