@@ -11,8 +11,6 @@ export const ThirdComponent = (props) => {
 
             <div className='row d-flex flex-column-reverse flex-sm-row '  >
                 <div className='col-12 col-sm-6 position-relative mt-4 mt-sm-5 '  >
-                    <img className='img-fluid style-beach-image'  src={beachImage}></img>
-                    <img className='img-fluid leaf-img-adjustment'  src={leafImage}></img>
                 </div>
 
                 <div  className='col-12 col-sm-6 d-flex flex-column justify-content-center align-items-start pt-5 negative-margin' >
