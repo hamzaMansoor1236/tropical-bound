@@ -1,3 +1,5 @@
+
+
 .heading-section-fourth {
   display: flex;
   color: #000;
@@ -8,6 +10,9 @@
   line-height: 42.5px;
   text-transform: capitalize;
   justify-content: center;
+}
+.react-multiple-carousel__arrow--right::before {
+  content: "";
 }
 
 .styling-destination {

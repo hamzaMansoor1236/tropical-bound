@@ -10,7 +10,7 @@ import four from '../../assets/four.png'
 import five from '../../assets/five.png'
 import six from '../../assets/six.png'
 
-// import leafImage from '../../assets/leaf-section-four.png'
+
 
 
 const responsive = {
@@ -59,7 +59,6 @@ function FourthSection() {
                     <div className='d-flex flex-column justify-content-center text-center px-2 px-md-2'><img className='img-fluid rounded img-height-fourth-section cursor-pointer object-fit-contain' draggable="false" src={five} ></img> <p className='d-flex justify-content-center text-below-image mt-2'>Oahu</p></div>
                     <div className='d-flex flex-column justify-content-center text-center px-2 px-md-2'><img className='img-fluid rounded img-height-fourth-section cursor-pointer object-fit-contain' draggable="false" src={six} ></img> <p className='d-flex justify-content-center text-below-image mt-2'>Molokai</p></div>
                     <div className='d-flex flex-column justify-content-center text-center px-2 px-md-2'><img className='img-fluid rounded img-height-fourth-section cursor-pointer object-fit-contain' draggable="false" src={five} ></img> <p className='d-flex justify-content-center text-below-image mt-2'>Oahu</p></div>
-                    
 
                 </Carousel>;
                 

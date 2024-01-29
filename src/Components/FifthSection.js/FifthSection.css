@@ -19,3 +19,59 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 176.471% */
 }
+
+@media screen and (min-width:320px) and (max-width:375px)
+{
+    .text {
+        font-size: 24px !important;
+    }
+    .width-90{
+        width: 90%;
+    }
+    .small-text-stats-fifth-section{
+        font-size: 17px;
+    }
+    .text-pink-fifth-section{
+        font-size: 26px;
+    }
+}
+
+
+
+
+@media screen and (min-width:376px) and (max-width:425px){
+    .text-pink-fifth-section{
+        font-size: 33px;
+    }
+    .text{
+        font-size: 32px !important;
+    }
+    .small-text-stats-fifth-section{
+        font-size: 13px;
+    }
+    .width-90{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:426px) and (max-width:768px){
+    .text-pink-fifth-section{
+        font-size: 38px;
+    }
+   
+    .small-text-stats-fifth-section{
+        font-size: 18px;
+    }
+}
+
+
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    .text{
+        font-size: 33px !important;
+    }
+    .small-text-stats-fifth-section{
+        font-size: 15px;
+    }
+
+}
