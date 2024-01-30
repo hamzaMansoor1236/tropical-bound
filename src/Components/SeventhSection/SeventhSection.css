@@ -1,0 +1,72 @@
+.bg-pink {
+  background-color: #ff385c;
+}
+
+.text-properties {
+  font-family: Poppins;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 15px; /* 136.364% */
+  text-transform: capitalize;
+}
+.text-para-seventh-section {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px; /* 143.75% */
+  text-transform: capitalize;
+}
+
+.height-image-seventh-section {
+  height: 241px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .height-image-seventh-section {
+    height: 222px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 424px) {
+  .height-image-seventh-section {
+    height: 265px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+    .height-image-seventh-section {
+      height: 302px;
+    }
+  }
+  
+  @media screen and (min-width: 426px) and (max-width: 768px) {
+    .height-image-seventh-section {
+      height: 217px;
+    }
+    .fs-1{
+        font-size: 28px !important;
+    }
+  }
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .height-image-seventh-section {
+      height: 175px;
+    }
+    .fs-1{
+        font-size: 26px !important;
+    }
+  }
+
+  @media screen and (min-width: 1025px) and (max-width: 2560px) {
+    .height-image-seventh-section {
+      height: 243px;
+    }
+    .fs-1{
+        font-size: 2px !important;
+    }
+  }

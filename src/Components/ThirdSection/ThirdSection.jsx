@@ -7,7 +7,7 @@ import React from 'react'
 
 export const ThirdComponent = (props) => {
     return (
-        <div className='container  '>
+        <div className='container'>
 
             <div className='row d-flex flex-column-reverse flex-sm-row '  >
                 <div className='col-12 col-sm-6 position-relative mt-4 mt-sm-5 '  >
@@ -22,6 +22,7 @@ export const ThirdComponent = (props) => {
                 </div>
 
             </div>
+            
         </div>
     );
 }

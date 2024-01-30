@@ -5,6 +5,9 @@ import './App.css'
 import ThirdComponent from './Components/ThirdSection/ThirdSection'
 import FourthSection from './Components/FourthSection/FourthSection'
 import FifthSection from './Components/FifthSection.js/FifthSection'
+import SixthSection from './Components/SixthSection/SixthSection'
+import SeventhSection from './Components/SeventhSection/SeventhSection'
+import EighthSection from './Components/EighthSection/EighthSection'
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
       <ThirdComponent/>
       <FourthSection></FourthSection>
       <FifthSection></FifthSection>
+      <SixthSection></SixthSection>
+      <SeventhSection></SeventhSection>
+      <EighthSection></EighthSection>
     </div>
   )
 }
