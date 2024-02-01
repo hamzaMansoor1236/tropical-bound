@@ -1,0 +1,94 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+footer {
+	background: white;
+	padding: 86px 0;
+}
+.single-content {
+	text-align: center;
+	padding: 115px 0;
+}
+.single-box p {
+	color: black;
+	line-height: 1.9;
+}
+.single-box h3 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #000;
+}
+.single-box .card-area i {
+	color: #000;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.single-box ul {
+	list-style: none;
+	padding: 0;
+}
+.single-box ul li a {
+	text-decoration: none;
+	color: #000;
+	line-height: 2.5;
+	font-weight: 100;
+}
+.single-box h2 {
+	color: #000;
+	font-size: 20px;
+	font-weight: 700;
+}
+#basic-addon2 {
+	background: #fe1e4f;
+	color: #000;
+}
+.socials i {
+	font-size: 18px;
+	margin-right: 15px;
+}
+
+.black-section{
+    background-color: #000;
+    color: white;
+}
+
+.rounded-custom-footer{
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+.text-decor{
+    text-decoration-color: #00fe8a !important;
+
+}
+
+.heading-text-footer-section{
+    font-size: 33px;
+    font-weight: bold;
+
+}
+
+@media (min-width:320px) and (max-width:374px){
+	.heading-text-footer-section{
+		font-size: 27px;
+		font-weight: bold;
+	
+	}
+}
+
+@media (min-width:375px) and (max-width:424px){
+	.heading-text-footer-section{
+		font-size: 32px;
+		font-weight: bold;
+	
+	}
+}
+
+@media (max-width: 767px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.single-box {
+		margin-bottom: 50px;
+	}
+}
