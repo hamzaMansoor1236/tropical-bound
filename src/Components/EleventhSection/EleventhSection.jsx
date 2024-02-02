@@ -18,7 +18,7 @@ function EleventhSection() {
                 <div class="input-group rounded-pill custom-border-eleventh-section">
                     <input type="text" class="form-control rounded-pill border-0" name="email" placeholder="Enter your email" style={{border:"none"}} />
                     <span class="input-group-btn " >
-                        <button class="btn btn-default btn-eleventh-section  rounded-pill fw-bold px-3 px-md-5 py-md-3 fs-5 " type="button">subscribe</button>
+                        <button class="btn btn-default btn-eleventh-section  rounded-pill fw-bold px-3 px-md-5 py-md-2 fs-5 " type="button">subscribe</button>
                     </span>
                 </div>
             </div>

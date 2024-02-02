@@ -1,19 +1,26 @@
 import React from 'react'
 import './FooterSection.css'
+import consumerProtectionImage from "../../assets/Footer.png"
+import visaImage from "../../assets/Footer2.png"
+import huaweiImage from "../../assets/Footer3.png"
+import escapiaImage from "../../assets/Footer5.png"
+
+
+
 
 function FooterSection() {
     return (
         <main className='' >
-            <div className='d-flex flex-column flex-md-row black-section rounded-custom-footer py-2 ' >
+            <div className='d-flex flex-column flex-md-row black-section rounded-custom-footer py-3 ' >
 
-                <div className='container d-flex flex-column flex-md-row'>
+                <div className='container d-flex flex-column flex-md-row  justify-content-between'>
 
-                    <div className='d-flex  col-md-6  pb-2 '>
+                    <div className='d-flex  col-md-6   '>
                         <p className=' mb-0 mt-0 heading-text-footer-section'><span className='text-decoration-underline text-decor' >Get</span> Connected With Us</p>
                     </div>
 
-                    <div className='d-flex icons-section pb-1  col-md-6 align-items-center justify-content-end'>
-                        <div className='d-flex col-12 col-lg-9 border border-2 border-success rounded-pill px-1 justify-content-between   '  >
+                    <div className='d-flex icons-section   col-md-6 align-items-center justify-content-end'>
+                        <div className='d-flex col-12 col-lg-9 col-xl-9 border border-2 border-success rounded-pill px-2 justify-content-between   '  >
                             <i class="bi bi-facebook fa-2x"></i>
                             <i class="bi bi-instagram fa-2x"></i>
                             <i class="bi bi-twitter-x fa-2x"></i>
@@ -29,78 +36,79 @@ function FooterSection() {
 
             </div>
             <footer >
-                <div class="container">
-                    <div class="row justify-content-center ">
-                        <div class="col-6 col-lg-2 col-sm-3">
-                            <div class="single-box d-flex flex-column ps-sm-4 ">
-                                <h2 className='text-decoration-underline text-decoration-danger '>Contact Us</h2>
+                <div class="container ">
+                    <div class="row justify-content-center py-5">
+                        <div class="col-6 col-lg-3 col-sm-4">
+                            <div class="single-box d-flex flex-column ">
+                                <h2 className='' ><span style={{borderBottom:"2px solid red"}}>Contact Us</span></h2>
                                 <ul>
-                                    <li><a href="#">Web Hosting</a></li>
-                                    <li><a href="#">Cloud Hosting</a></li>
-                                    <li><a href="#">CMS Hosting</a></li>
-                                    <li><a href="#">WordPress Hosting</a></li>
-                                    <li><a href="#">Email Hosting</a></li>
-                                    <li><a href="#">VPS Hosting</a></li>
+                                    <li ><a href="#"><i class="bi bi-telephone-fill "></i> <span className='text-footer-section' >1-604-466-0309</span></a></li>
+                                    <li ><a href="#"><i class="bi bi-telephone-fill"></i> <span className='text-footer-section' >1-866-456-6284</span></a></li>
+                                    <li><a href="#"><i class="bi bi-envelope-fill"></i> <span className='text-footer-section' >info@tropicalbound.com</span></a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-6 col-lg-2 col-sm-3">
                             <div class="single-box">
-                                <h2>Useful Links</h2>
+                            <h2 className='' ><span style={{borderBottom:"2px solid red"}}>Useful Links</span></h2>
+
                                 <ul>
-                                    <li><a href="#">Web Hosting</a></li>
-                                    <li><a href="#">Cloud Hosting</a></li>
-                                    <li><a href="#">CMS Hosting</a></li>
-                                    <li><a href="#">WordPress Hosting</a></li>
-                                    <li><a href="#">Email Hosting</a></li>
-                                    <li><a href="#">VPS Hosting</a></li>
+                                    <li><a href="#"><span className='text-footer-section' >Activities</span></a></li>
+                                    <li><a href="#"><span className='text-footer-section' >Contact Us</span></a></li>
+                                    <li><a href="#"><span className='text-footer-section' >Happy Customers</span></a></li>
+                                    <li><a href="#"><span className='text-footer-section' >Tropical Links</span></a></li>
+                                    <li><a href="#"><span className='text-footer-section' >Privacy Policy</span></a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="col-6 col-lg-2 col-sm-3">
                             <div class="single-box ">
-                                <h2>Security Standards</h2>
+                            <h2 className='' ><span style={{borderBottom:"2px solid red"}}>Security Standards</span></h2>
+                              
                                 <ul>
-                                    <li><a href="#">Web Hosting</a></li>
-                                    <li><a href="#">Cloud Hosting</a></li>
-                                    <li><a href="#">CMS Hosting</a></li>
-                                    <li><a href="#">WordPress Hosting</a></li>
-                                    <li><a href="#">Email Hosting</a></li>
-                                    <li><a href="#">VPS Hosting</a></li>
+                                    <li><img className="img-fluid" src={consumerProtectionImage}></img></li>
+                                    <li><img className="img-fluid" src={visaImage}></img></li>
+
+
+
                                 </ul>
                             </div>
                         </div>
                         <div class="col-6 col-lg-2 col-sm-3">
                             <div class="single-box ">
-                                <h2>We are Authorized</h2>
+                            <h2 className='' ><span style={{borderBottom:"2px solid red"}}>We are Authorized</span></h2>
                                 <ul>
-                                    <li><a href="#">Web Hosting</a></li>
-                                    <li><a href="#">Cloud Hosting</a></li>
-                                    <li><a href="#">CMS Hosting</a></li>
-                                    <li><a href="#">WordPress Hosting</a></li>
-                                    <li><a href="#">Email Hosting</a></li>
-                                    <li><a href="#">VPS Hosting</a></li>
+                                    <li><img className="img-fluid" src={huaweiImage}></img></li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-6 col-lg-2 col-sm-3 ms-5">
-                            <div class="single-box ">
-                                <h2>Our Partners</h2>
+                        <div class="col-6 col-lg-2 col-sm-3 ">
+                            <div class="single-box custom-styling-at-mobile">
+                            <h2 className='' ><span style={{borderBottom:"2px solid red"}}>We are Authorized</span></h2>
+
                                 <ul>
-                                    <li><a href="#">Web Hosting</a></li>
-                                    <li><a href="#">Cloud Hosting</a></li>
-                                    <li><a href="#">CMS Hosting</a></li>
-                                    <li><a href="#">WordPress Hosting</a></li>
-                                    <li><a href="#">Email Hosting</a></li>
-                                    <li><a href="#">VPS Hosting</a></li>
+                                    <li><img className="img-fluid" src={escapiaImage}></img></li>
                                 </ul>
                             </div>
                         </div>
+
                         
-                       
+
+                        <div className='footer-bottom d-flex flex-column flex-lg-row justify-content-center justify-content-md-between '>
+                            <div className=' copyright-section text-center text-lg-start'>
+                                Copyright © 2001–2023 Tropicalbound.com™. All rights reserved.
+                            </div>
+                            <div className=' made-with-love-section text-center text-lg-end'>
+                                Made With ❤️ By Binarybrix.com
+                            </div>
+                        </div>
+
                     </div>
+
                 </div>
+
             </footer>
+
         </main>
     )
 }

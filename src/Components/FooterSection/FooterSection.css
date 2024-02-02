@@ -2,7 +2,7 @@
 
 footer {
 	background: white;
-	padding: 86px 0;
+	
 }
 .single-content {
 	text-align: center;
@@ -57,12 +57,28 @@ footer {
 }
 .text-decor{
     text-decoration-color: #00fe8a !important;
-
 }
 
 .heading-text-footer-section{
     font-size: 33px;
     font-weight: bold;
+}
+
+.text-footer-section{
+	font-family: Poppins;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 23px;
+	letter-spacing: -0.20000000298023224px;
+	text-align: justified;
+}
+.footer-bottom{
+	font-family: Poppins;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: center;
 
 }
 
@@ -70,7 +86,27 @@ footer {
 	.heading-text-footer-section{
 		font-size: 27px;
 		font-weight: bold;
-	
+	}
+	.fa-2x {
+		font-size: 1.3em;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+}
+
+
+@media (min-width:320px) and (max-width:425px) {
+	.custom-styling-at-mobile{
+		display: flex !important;
+		flex-direction: column !important;
+		align-items: center !important;
+	}
+}
+
+@media (min-width:375px) and (max-width:424px){
+	.heading-text-footer-section{
+		font-size: 32px;
+		font-weight: bold;
 	}
 }
 
@@ -80,15 +116,40 @@ footer {
 		font-weight: bold;
 	
 	}
-}
-
-@media (max-width: 767px) {
-	.single-box {
-		margin-bottom: 50px;
+	.fa-2x {
+		font-size: 1.6em;
+		padding-top: 1px;
+		padding-bottom: 1px;
 	}
 }
+@media (min-width:425px) {
+	.heading-text-footer-section{
+		font-size: 36px;
+		font-weight: bold;
+	}
+	.fa-2x {
+		font-size: 1.6em;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
 	.single-box {
 		margin-bottom: 50px;
 	}
+	.heading-text-footer-section{
+		font-size: 30px;
+	}
 }
+
+
+@media (min-width: 768px) and (max-width: 2560px) {
+	.fa-2x {
+		font-size: 1.3em;
+		padding-top: 1px;
+		padding-bottom: 1px;
+	}
+}
+
+
