@@ -23,7 +23,7 @@ function SeventhSection() {
 
             <div className='col-12 col-md-5 col-lg-3 rounded d-flex position-relative height-image-seventh-section ' style={{ backgroundImage: `url(${seventhOne})`, backgroundRepeat: 'no-repeat', backgroundSize: 'contain' }} >
                 <p className='rounded-pill px-3 bg-pink text-white position-absolute text-properties py-1' style={{ left: "15px", top: '20px' }}>20+ properties</p>
-                <p className='align-self-center text-white fs-1    fw-bold mx-auto ' >Kihie</p>
+                <p className='align-self-center text-white fs-1 fw-bold mx-auto ' >Kihie</p>
             </div>
 
             <div className='col-12 col-md-5 col-lg-3 rounded d-flex position-relative height-image-seventh-section height-image-seventh-section' style={{ backgroundImage: `url(${seventhTwo})`, backgroundRepeat: 'no-repeat', backgroundSize: 'contain' }} >
